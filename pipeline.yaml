@@ -1,0 +1,14 @@
+apiVersion: deploy.cloud.google.com/v1
+kind: Pipeline
+metadata:
+  name: gke-cicd-pipeline
+  annotations:
+    deploy.cloud.google.com/labels:
+      environment: dev
+  labels:
+    environment: dev
+description: GKE CI/CD pipeline
+serialPipeline:
+  stages:
+  - target: dev
+  - target: prod
