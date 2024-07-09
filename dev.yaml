@@ -9,4 +9,4 @@ metadata:
     environment: dev
 description: dev
 gke:
-  cluster: projects/<your_project_id>/locations/us-central1-c/clusters/dev-cluster
+  cluster: projects/<second-project-424720/locations/us-central1-c/clusters/dev-cluster
